@@ -1,10 +1,12 @@
 from urllib.parse import urlencode
 from urllib.request import Request, urlopen
 from xml.etree import ElementTree
+#reminder to install BeautifulSoup for python to run this script
 from bs4 import BeautifulSoup
 import datetime
 
-
+#Run script
+#give input in dd.MM.yyyy format
 show_date = input('Anna päivämäärä: ')
 
 url = 'https://www.finnkino.fi'
